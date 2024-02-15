@@ -1,0 +1,25 @@
+# Estudando ambiente virtual em Python (WINDOWS)
+
+Verção do python: Python 3.11.8
+
+Para criar o ambiente: 
+`python -m venv nome_do ambiente`
+
+O Power Shell vem restrito por padrão então para liberar:
+- abra o powershell como administrador
+- execute o comando:
+> `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`
+
+Para **ativar** o ambiente execute no terminal do vs(na pasta onde possui o ambiente):
+`.\nome_ambiente\Scripts\Activate.ps1`
+para ativar pelo terminal:
+`.\nome_ambiente\Scripts\Activate.bat`
+
+Aqui ja pode adicionar todas as intalções e configurações
+
+Para desativar basta rodar o comando:
+> `deactivate`
+
+
+
+Vídeo seguido: https://www.youtube.com/watch?v=m1TYpvIYm74&ab_channel=Ot%C3%A1vioMiranda
